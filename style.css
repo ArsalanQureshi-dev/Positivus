@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
     padding: 0px;
@@ -110,7 +110,8 @@ a {
 }
 
 .subheading>p {
-    margin-left: 45px
+    margin-left: 45px;
+    margin-top: 5px;
 }
 
 /* ----------------- Services Block ----------------- */
@@ -177,7 +178,7 @@ a {
     margin: 80px 7px;
 }
 
-/* ----------------- Process Block ----------------- */
+/* ----------------- process card ----------------- */
 
 .process-block {
     display: flex;
@@ -192,29 +193,186 @@ a {
 
 .process-head h1 {
     font-size: 60px;
-    margin: 35px 15px 0px 65px;
+    margin: 35px 15px 0px 50px;
 }
 
 .process-p {
-    display: inline-block;
     width: 612px;
     height: 65px;
     font-size: 30px;
     font-weight: 450;
     margin-top: 55px;
+    margin-left: 10px;
 }
 
 .process-icon {
     height: 60px;
-    margin: 50px 0px 0px 330px;
-    
+    margin: 50px 0px 0px 314px;
+
 }
-.para{
+
+.para {
+    margin-top: -140px;
+    margin-left: 150px;
+    width: 1080px;
+    border-bottom: 1px solid #191A23;
+    height: 1px;
+}
+
+.para-line {
+    margin: 35px 0px 0px 152px;
+    /* width: 400; */
+    /* size: 25px; */
+    /* font-weight: 400; */
+    font-size: 1.2rem;
+
+}
+
+/* ----------------- process card -1 ----------------- */
+
+.content-card1 {
     display: flex;
-    align-items: self-end;
+    background-color: #F3F3F3;
+    height: 159px;
+    border-radius: 45px;
+    border: 1px solid black;
+    border-bottom: 6px solid black;
+    margin: 80px 0px 0px 100px;
+    width: 1190px;
+}
+
+.icon {
+    height: 60px;
+    margin: 50px 0px 0px 314px;
+}
+
+.content-card2 {
+    display: flex;
+    background-color: #F3F3F3;
+    height: 159px;
+    border-radius: 45px;
+    border: 1px solid black;
+    border-bottom: 6px solid black;
+    margin: 30px 0px 0px 100px;
+    width: 1190px;
+}
+
+/* ----------------- Contact block ----------------- */
+.Contactblock {
+    display: flex;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    width: 1185px;
+    height: 773px;
+    margin: 80px 0px 0px 100px;
 
 }
 
+.form {
+    width: 556px;
+    height: 633px;
+    margin: 50px 0px 0px 65px;
+}
+
+#green {
+    width: 20px;
+    height: 18px;
+    accent-color: #B9FF66;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 556px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.msg1{
+    margin-top: 15px;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#name {
+    width: 556px;
+    height: 59px;
+    margin-top: 10px;
+    border-radius: 14px;
+    padding: 3px 0px 0px 20px;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+.name1 {
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#email {
+    width: 556px;
+    height: 59px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 3px 0px 0px 20px;
+    font-size: 18px;
+}
+
+.email {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.send-btn {
+    width: 556px;
+    height: 68px;
+    border: none;
+    background-color: #191A23;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 40px;
+}
+/* ----------------- Contact block img ----------------- */
+.fome-img{
+    width: 691.75px;     
+    height: 688px;
+    margin-top: 50px;
+    margin-left: 195px;
+}
+/* ----------------- footer ----------------- */
+.footer-contaner{
+    width: 1185px;
+    height: 773px;
+    margin: 130px 0px 0px 100px;
+    background-color: #191A23;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.footer-header{
+    display: flex;
+    width: 1121px;
+    height: 30px;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.footer-li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+}
 /* -------------------  Hover Section --------------- */
 
 /* -------------- Header Hover Section --------------- */
